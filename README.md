@@ -1,0 +1,2 @@
+# OneNetwork
+One Network is an application which we designed for our college to ease the process of getting an internship under a professor. The main intention was to help students and professors in such a way that they don't get trouble in ﬁnding a perfect match. We built one platform on which professor, as well as students, can post their ideas and ask other students or professor's to work on it together.
