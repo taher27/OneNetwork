@@ -1,0 +1,195 @@
+body{
+    margin: 0%;
+    padding: 0%;
+}
+.loginBox{
+    max-width: 50%;
+    background-color: #002a6b;
+    margin-top: 200px;
+    height: 500px;
+    width: 400px;
+    display: flex;
+    justify-content: center;
+    border-radius: 15px;
+}
+.mainwrapper{
+    height: 100%;
+    width: 100%;
+    padding: 0%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffffff;
+}
+img{
+    height: 200px;
+    width: 400px;
+    margin-top: -200px;
+}
+.unamepwd{
+    width: 100%;
+}
+.btn_cont{
+    text-align: center;
+    margin-top: 80px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+h1{
+    font-size: 48px;
+    color: #ffffff;
+    padding: 2px 0 10px 0;
+    font-family: 'arcon', serif;
+    font-weight: bold;
+	text-align: center;
+	padding-bottom: 30px;
+}
+label{
+    font-family: 'arcon', serif;
+    font-weight: bold;
+    font-size: 27px;
+    color: #fff;
+    margin-right: 20px; 
+    margin-left: 30px;
+}
+
+form{
+    font-family: 'arcon', serif;
+    justify-content: center;
+    align-items: center;
+}
+placeholder{ 
+    color: whitesmoke;
+    font-style: normal;
+}
+input{
+    margin-top: 50px;   
+    margin-bottom: 50px;
+    margin-left: auto;
+    margin-right: auto;
+}
+input[type=text] {
+    padding: 0;
+    height: 50px;
+    width: 300px;
+    position: relative;
+    left: 0;
+    outline: none;
+    border: 1px inset #fff;
+    border-color: rgba(0, 0, 0, .15);
+    background-color: white;
+    font-size: 16px;
+    margin-left: 50px;
+    border-radius: 10px;
+    text-align: center;
+    
+}
+  input[type=text]:focus {
+    box-shadow: 0 0 15px #fff;
+  padding: 3px 0px 3px 0px;
+  /* margin: 5px 1px 3px 0px; */
+  border: 1px solid #fff;
+  }
+  input[type=text]:hover {
+    box-shadow: 0 0 15px #fff;
+  padding: 3px 0px 3px 0px;
+  /* margin: 5px 1px 3px 0px; */
+  border: 1px solid #fff;
+  }
+/* input[type=password]{
+    padding: 0;
+    height: 50px;
+    width: 300px;
+    position: relative;
+    left: 0;
+    outline: none;
+    border: 1px inset #cdcdcd;
+    border-color: rgba(0, 0, 0, .15);
+    background-color: white;
+    font-size: 16px;
+    margin-left: 50px;
+    border-radius: 10px;
+    text-align: center;
+}
+input[type=password]:focus{
+    box-shadow: 0 0 15px #fff;
+    padding: 3px 0px 3px 0px;
+    margin: 5px 1px 3px 0px; 
+    border: 1px solid #fff;
+}
+input[type=password]:hover{
+    box-shadow: 0 0 15px #ffffff;
+    padding: 3px 0px 3px 0px;
+    margin: 5px 1px 3px 0px; 
+    border: 1px solid #ffffff;
+} */
+input[type=submit]{
+    border: none;
+background: #ffffff;
+color: #002a6b !important;
+font-weight: 100;
+padding: 20px;
+text-transform: uppercase;
+border-radius: 6px;
+display: inline-block;
+margin-bottom: -100px;
+}
+input[type=submit]:hover{
+    color: #ffffff !important;
+font-weight: 700 !important;
+letter-spacing: 3px;
+background: none;
+-webkit-box-shadow: 0px 5px 40px -10px lightblue;
+-moz-box-shadow: 0px 5px 40px -10px #002a6b;
+transition: all 0.2s ease 0s;
+}
+
+@media only screen and (max-width:500px){
+    .loginBox{
+        max-width: 100%;
+        background-color: #002a6b;
+        margin-top: 300px;
+        height: 500px;
+        width: 350px;
+        display: flex;
+        justify-content: center;
+        border-radius: 15px;
+        margin-left: 0;
+        padding: 0%;
+    }
+    .mainwrapper{
+        margin: 0%;
+        padding: 0%;
+    }
+    
+    img{
+        height: 100px;
+        width: 200px;
+        margin: 20px;
+        margin-left: 30px;
+        margin-bottom: -200px;
+        padding-bottom: -200px;
+        margin-top: -150px;
+    }
+    input[type=text]{
+        height: 50px;
+        width: 250px;
+        font-size: 15pt;
+        margin-left: 10px;
+        margin-right: auto;
+    }
+    input[type=password]{
+        height: 50px;
+        width: 250px;
+        font-size: 15pt;
+        margin-left: 10px;
+        margin-top: 10px;
+        margin-right: auto;
+    }
+    input[type=submit]{
+        margin-top: 20px;
+        height: 50px;
+        width: 100px;
+        font-size: 12pt;
+    }
+}

@@ -1,0 +1,1 @@
+[10-Apr-2019 16:53:17 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'id9164918_onenetwork'@'localhost' (using password: YES) in /home/jthn56ss6rpu/public_html/config.php on line 17
